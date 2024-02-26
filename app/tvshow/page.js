@@ -10,7 +10,7 @@ const page = async() => {
   const Allchannels = channel.tvShows;
     return (
         <div className=''>
-           <div className="text-4xl text-center my-10  text-white font-bold bg-custom-color py-10">All Tv Show
+           <div className="text-4xl text-center my-10  text-white font-bold bg-custom-color py-10">All Tv Shows
 </div>
 
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 items-center justify-center justify-items-center">
