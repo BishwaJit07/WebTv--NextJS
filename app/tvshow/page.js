@@ -3,13 +3,13 @@ import Link from 'next/link';
 import React from 'react';
 
 const page = async() => {
-    const res = await fetch(`http://localhost:3000/api/livechannel`);
+    const res = await fetch(`http://localhost:3000/api/tvshow`);
     const channel = await res.json();
   console.log(channel);
   const Allchannels = channel.liveChannels;
     return (
         <div className=''>
-           <div className="text-4xl text-center my-10  text-white font-bold bg-custom-color py-10">All Channels
+           <div className="text-4xl text-center my-10  text-white font-bold bg-custom-color py-10">All Tv Show
 </div>
 
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 items-center justify-center justify-items-center">

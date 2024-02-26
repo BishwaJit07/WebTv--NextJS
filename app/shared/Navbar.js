@@ -12,15 +12,12 @@ const Navbar = () => {
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
             <li><Link href='/'>Home</Link></li>
               <li><Link href='/livetv'>LiveTv</Link></li>
-             
+              <li><Link href='/'>Tv Show</Link></li>
               <li>
               <Link href='/about'>about</Link>
-                <ul className="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                </ul>
+               
               </li>
-              <li><a>Item 3</a></li>
+             
             </ul>
           </div>
           <Link href='/' className="btn btn-ghost text-xl">WebTv</Link>
@@ -29,16 +26,11 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">
           <li><Link href='/'>Home</Link></li>
           <li><Link   href='/livetv'>LiveTv</Link></li>
+            
+            <li><Link href='/'>Tv Show</Link></li>
             <li>
-              <details>
-                <summary> <Link href='/about'>about</Link></summary>
-                <ul className="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                </ul>
-              </details>
+              <Link href='/about'>AboutUs</Link>
             </li>
-            <li><a>Item 3</a></li>
           </ul>
         </div>
         
