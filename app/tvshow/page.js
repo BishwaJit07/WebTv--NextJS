@@ -3,7 +3,8 @@ import Link from 'next/link';
 import React from 'react';
 
 const page = async() => {
-    const res = await fetch(`http://localhost:3000/api/tvshow`);
+  const apiUrl = process.env.APi_URL
+    const res = await fetch(`${apiUrl}/api/tvshow`);
     const channel = await res.json();
   console.log(channel);
   const Allchannels = channel.liveChannels;

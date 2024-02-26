@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const SingleChannel = async ({params}) => {
     const channelId = params.channeld;
-    
-    const res = await fetch(`http://localhost:3000/api/livechannel/${channelId}`);
+    const apiUrl = process.env.APi_URL
+    const res = await fetch(`${apiUrl}/api/livechannel/${channelId}`);
     const channel = await res.json();
     const singleChannel = channel.LiveChannel;
 console.log(channel);
