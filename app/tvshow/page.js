@@ -6,8 +6,8 @@ const page = async() => {
   const apiUrl = process.env.APi_URL
     const res = await fetch(`${apiUrl}/api/tvshow`);
     const channel = await res.json();
-  console.log(channel);
-  const Allchannels = channel.liveChannels;
+
+  const Allchannels = channel.tvShows;
     return (
         <div className=''>
            <div className="text-4xl text-center my-10  text-white font-bold bg-custom-color py-10">All Tv Show
@@ -35,3 +35,4 @@ const page = async() => {
 };
 
 export default page;
+

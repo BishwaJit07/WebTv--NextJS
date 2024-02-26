@@ -35,7 +35,7 @@ const page = () => {
             <div className='grid grid-cols-1 md:grid-cols-3 gap-1 md:gap-8 text-center items-center justify-center mx-2 my-5 md:mt-40'>
                 <div className='p-6'>
                     <h2 className='text-xl font-bold'>Our Mission</h2>
-                    <p>At WebTv, our mission is to redefine the way you experience entertainment. We strive to provide a diverse array of content that caters to every taste and preference. Whether you're in the mood for heart-pounding action, gut-wrenching drama, side-splitting comedy, or thought-provoking documentaries, we've got you covered.</p>
+                    <p>At WebTv, our mission is to redefine the way you experience entertainment. We strive to provide a diverse array of content that caters to every taste and preference. Whether you&apos;re in the mood for heart-pounding action, gut-wrenching drama, side-splitting comedy, or thought-provoking documentaries, we&apos;ve got you covered.</p>
                 </div>
                 <div className='p-6'>
                     <h2 className='text-xl font-bold'>What Sets Us Apart</h2>
@@ -47,7 +47,7 @@ const page = () => {
 
 
 <li> <span className='font-semibold'>Blockbuster Movies:</span>
-     Immerse yourself in the magic of cinema with our vast library of blockbuster movies. Whether you're in the mood for a Hollywood classic, an indie gem, or the latest box-office hit, we have the perfect movie for your movie night. </li></ul>
+     Immerse yourself in the magic of cinema with our vast library of blockbuster movies. Whether you&apos;re in the mood for a Hollywood classic, an indie gem, or the latest box-office hit, we have the perfect movie for your movie night. </li></ul>
                 </div>
                 <div className='p-6'>
                     <h2 className='text-xl font-bold'>Our Promise
